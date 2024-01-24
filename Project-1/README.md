@@ -9,26 +9,38 @@
 ## launch an EC2 instance 
 
 - Click on EC2 
+
 ![ec2](./images/ec-2.png)
 
 - Launch Instance
+
 ![launch](./images/launch-instance.png)
+
 - Name your webserver
+
 - Choose your Machine Image  (AMI)
 ![images](./images/ubuntu-20.04.png)
+
 - Choose your instance type (in this case we are using t.2micro it is free tier eligible)
+
 ![image](./images/instance-type.png)
+
 - Create a key pair 
 ![images](./images/create-keypair.png)
+
 - Create Security Group
 ![images](./images/SG-malawi.png)
+
 - Launch your instance
 ![image](./images/launch.png)
+
 - When you have successfully launched your instance
 ![image](./images/sucess.png)
+
 ### Allocate Elastic IP address
 - On the Ec2 Cosole search for Elastic IP and click on it 
 ![image](./images/elastic%20ip.png)
+
 - Allocate IP Address
 ![image](./images/Allocate%20ip-address.png)
 ![image](./images/elastic%20ip.png)
@@ -44,6 +56,7 @@
 
 - Connect to your webserver
 ![image](./images/connect-to%20webserver.png)
+
 - Use the ssh client string for connection on the terminal
 ![image](./images/ssh-client.png)
 ![image](./images/yes.png)
@@ -77,13 +90,19 @@ sudo apt-get upgrade -y
 `cd /var/www/html`
 
 - Visit [Tooplate.com](https://www.tooplate.com/)
+
 - Pick the template you want
+
 - Right click on the page and click on inspect
 ![image](./images/inspect.png)
+
 - Click on network
+
 - Click download on the website
+
 - Navigate to network
 ![image](./images/download.png)
+
 - Run the following command
 `curl -o /var/www/html/2129_crispy_kitchen.zip https://www.tooplate.com/zip-templates/2129_crispy_kitchen.zip`
 
@@ -96,10 +115,12 @@ sudo apt-get upgrade -y
 
 ### Unzip the file: 
 `sudo apt install unzip`
+
 - Run the following command to unzip the template
 ` sudo unzip 2129_crispy_kitchen.zip`
 `sudo nano /etc/nginx/sites-available/default`
 `sudo systemctl restart nginx`
+
 - Use the Public Ip to see if your website is showing
 ![image](./images/website.png)
 
@@ -111,9 +132,11 @@ sudo apt-get upgrade -y
 - Create hosted Zone
 ![image](./images/hosted-zones.png)
 ![image](./images/zone.png)
+
 - Create Record
 ![image](./images/create-record.png)
 ![image](./images/webservers-route53.png)
+
 - Go Namecheap to add webservers [helpful article](https://www.namecheap.com/support/knowledgebase/article.aspx/10371/2208/how-do-i-link-my-domain-to-amazon-web-services/)
 
 - ![jobi](./images/jobi-jollof.png)
