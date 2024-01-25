@@ -1,7 +1,5 @@
 
 
-https://github.com/Jobijollof/DevOps-Projects3/assets/113374279/464d7199-9695-4538-b0e7-5f321a620e08
-
 ![images](./images/List%20of%20Projects.png)
 
 ![image](./images/project1.png)
@@ -146,5 +144,9 @@ sudo apt-get upgrade -y
 - ![jobi](./images/jobi-jollof.png)
   
 
-https://github.com/Jobijollof/DevOps-Projects3/assets/113374279/72014784-662e-4c92-8733-947a9871a00d
+
+
+https://github.com/Jobijollof/DevOps-Projects3/assets/113374279/3df81bc1-126e-41e9-8e3c-5b0a74266412
+
+
 
