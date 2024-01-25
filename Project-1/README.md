@@ -102,7 +102,7 @@ sudo apt-get upgrade -y
 
 - Click download on the website
 
-- Navigate to network
+- Navigate to network and copy the zip file
 ![image](./images/download.png)
 
 - Run the following command
