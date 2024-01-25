@@ -1,3 +1,7 @@
+
+
+https://github.com/Jobijollof/DevOps-Projects3/assets/113374279/464d7199-9695-4538-b0e7-5f321a620e08
+
 ![images](./images/List%20of%20Projects.png)
 
 ![image](./images/project1.png)
@@ -140,3 +144,7 @@ sudo apt-get upgrade -y
 - Go Namecheap to add webservers [helpful article](https://www.namecheap.com/support/knowledgebase/article.aspx/10371/2208/how-do-i-link-my-domain-to-amazon-web-services/)
 
 - ![jobi](./images/jobi-jollof.png)
+  
+
+https://github.com/Jobijollof/DevOps-Projects3/assets/113374279/72014784-662e-4c92-8733-947a9871a00d
+
