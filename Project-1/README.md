@@ -140,3 +140,39 @@ sudo apt-get upgrade -y
 - Go Namecheap to add webservers [helpful article](https://www.namecheap.com/support/knowledgebase/article.aspx/10371/2208/how-do-i-link-my-domain-to-amazon-web-services/)
 
 - ![jobi](./images/jobi-jollof.png)
+
+### Install certbot and request for an SSL/TLS certificate
+Make sure [snapd](https://snapcraft.io/snapd) service is active and running
+
+`sudo systemctl status snapd`
+- Ensure that your version of snapd is up to date Execute the following instructions on the command line on the machine to ensure that you have the latest version of snapd.
+
+`sudo snap install core; sudo snap refresh core`
+
+
+### Install certbot
+`sudo snap install --classic certbot`
+
+Request your certificate just follow the certbot instructions – you will need to choose which domain you want your certificate to be issued for.
+
+```
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+sudo certbot --nginx
+
+```
+- I had this error when i ran `sudo cerbot --nginx`
+![image](./images/WhatsApp%20Image%202024-01-27%20at%205.53.41%20AM.jpeg)
+
+- Went back to Route 53 and removed www i put on the subdomain while creating the A Record.(ie edit A record)
+
+- Save
+
+- Click on `Check status` to allow it to propagate. 
+
+- Restart Nginx
+`sudo systemctl restart nginx`
+![image](./images/end1.png)
+- Check the website
+![image](./images/end.png)
+
+
