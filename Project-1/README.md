@@ -143,6 +143,10 @@ sudo apt-get upgrade -y
 
 - ![jobi](./images/jobi-jollof.png)
 
+  
+
+https://github.com/Jobijollof/DevOps-Projects3/assets/113374279/7183c5c8-cb56-429b-b919-7e11e69e2f3e
+
 
 ### Install certbot and request for an SSL/TLS certificate
 Make sure [snapd](https://snapcraft.io/snapd) service is active and running
@@ -177,7 +181,7 @@ sudo certbot --nginx
 ![image](./images/end1.png)
 - Check the website
 ![image](./images/end.png)
-=======
+
   
 
 
