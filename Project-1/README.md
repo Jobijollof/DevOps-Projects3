@@ -142,7 +142,7 @@ sudo apt-get upgrade -y
 - Go Namecheap to add webservers [helpful article](https://www.namecheap.com/support/knowledgebase/article.aspx/10371/2208/how-do-i-link-my-domain-to-amazon-web-services/)
 
 - ![jobi](./images/jobi-jollof.png)
-<<<<<<< HEAD
+
 
 ### Install certbot and request for an SSL/TLS certificate
 Make sure [snapd](https://snapcraft.io/snapd) service is active and running
@@ -182,8 +182,6 @@ sudo certbot --nginx
 
 
 
-https://github.com/Jobijollof/DevOps-Projects3/assets/113374279/3df81bc1-126e-41e9-8e3c-5b0a74266412
 
->>>>>>> 39a9ee80d3f1a18cce8eb8685415036f7407e5e6
 
 
