@@ -142,8 +142,7 @@ sudo apt-get upgrade -y
 - Go Namecheap to add webservers [helpful article](https://www.namecheap.com/support/knowledgebase/article.aspx/10371/2208/how-do-i-link-my-domain-to-amazon-web-services/)
 
 - ![jobi](./images/jobi-jollof.png)
-
-  
+- ![not=secure](https://github.com/Jobijollof/DevOps-Projects3/assets/113374279/7179d206-5b92-4f36-b530-7098a0e99cd8)
 
 https://github.com/Jobijollof/DevOps-Projects3/assets/113374279/7183c5c8-cb56-429b-b919-7e11e69e2f3e
 
