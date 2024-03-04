@@ -4,7 +4,20 @@
 
 ![image](./images/project1.png)
 
-# Project Prerequsite
+## Checklist
+
+- [x] Task 1: Buy a domain name from a domain Registrar.
+- [x] Task 2: Spin up a Ubuntu server & assign an elastic IP to it.
+- [x] Task 3: SSH into the server and install Nginx.
+- [x] Task 4: Find freely available HTML website files.
+- [x] Task 5: Download and unzip the website files to the Nginx website directory.
+- [x] Task 6: Validate the website using the server IP address.
+- [x] Task 7: In your DNS account, create an A record and add the Elastic IP.
+- [x] Task 8: Use the dig command to verify the DNS records.
+- [x] Task 9: Using DNS verify the website setup.
+- [x] Task 10: Create a Letsencryp certificate for the DNS and configure it on the Nginx server.
+- [x] Task 11: Validate the website SSL using the OpenSSL utility.
+
 
 - 1 Open an [AWS ACCOUNT](https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwiiud_K5PWDAxXaaUcBHXk1DIsYABAAGgJxdQ&ase=2&gclid=Cj0KCQiAh8OtBhCQARIsAIkWb6_8dRONbzczxip0iCBXWbQfznY39AZj7QVVu5aFOJUPYExe4s9cWQYaAp7FEALw_wcB&ei=UeKwZaq9FImQxc8PnLiJkAM&ohost=www.google.com&cid=CAESVeD26-ZLTaCtkOwQ4xmwh2XHc20AcjYx594xvpRb1yjwtenvRkRU5-U8tZvaQ3OCBlvdMZSfBo5wH1xBVTFCus7rxuOMNV5Snjb34KwOOQw9siv3VKA&sig=AOD64_0KR-DDwk2I0e_tnQeIm3pQm1ZHRQ&q&sqi=2&nis=4&adurl&ved=2ahUKEwjqqdbK5PWDAxUJSPEDHRxcAjIQ0Qx6BAgNEAE)
 
@@ -74,12 +87,10 @@ sudo apt-get upgrade -y
 
 ```
 ### Install Nginx:
-`sudo apt-get install nginx -y
-`
+`sudo apt-get install nginx -y`
 
 ### Start Nginx and Enable on Boot:
 `sudo systemctl start nginx`
-`
  - ### Enable Nginx on boot:
     `sudo systemctl enable nginx`
 `
@@ -119,8 +130,13 @@ sudo apt-get upgrade -y
 `sudo apt install unzip`
 
 - Run the following command to unzip the template
-` sudo unzip 2129_crispy_kitchen.zip`
-`sudo nano /etc/nginx/sites-available/default`
+```
+sudo unzip 2129_crispy_kitchen.zip
+sudo nano /etc/nginx/sites-available/default
+```
+- Locate the server block and add the folder containing the html file(ie the folder you unzipped)
+![image](./images/server-block.png)
+ 
 `sudo systemctl restart nginx`
 
 - Use the Public Ip to see if your website is showing
